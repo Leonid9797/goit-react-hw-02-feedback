@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
+
 import FeedbackOptions from '../components/FeedbackOptions.jsx/FeedbackOptions';
 import Statistics from '../components/Statistics.jsx/Statistics';
 import Section from '../components/Section.jsx/Section';
 import Notification from '../components/Notification.jsx/Notification';
 
-const AppWrapper = styled.div`
-  text-align: center;
-`;
 class App extends Component {
   state = {
     good: 0,
